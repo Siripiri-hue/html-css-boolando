@@ -1,0 +1,51 @@
+.row {
+    background-color: black;
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+}
+
+.img {
+    width: 300px;
+    position: relative;
+}
+
+.label {
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    padding: 5px;
+}
+
+.discount {
+    background-color: red;
+}    
+
+.sust {
+    background-color: green;
+    left: 50px;
+}
+
+.heart {
+    color: black;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.brand, .name {
+    display: block;
+}
+
+
