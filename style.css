@@ -15,6 +15,7 @@ img {
 .img {
     width: 300px;
     position: relative;
+    display: inline-block;
 }
 
 .label {
@@ -47,5 +48,18 @@ img {
 .brand, .name {
     display: block;
 }
+
+.imgtop {
+    display: none;
+}
+
+.card:hover .imgbase{
+    display: none;
+}
+
+.card:hover .imgtop{
+    display: initial;
+}
+
 
 
