@@ -1,27 +1,35 @@
 * {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* centratura delle sezioni */
 .row {
-    margin: auto 17vw;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
+/* struttura delle card  */
 .card {
     background-color: white;
     display: inline-block;
     padding: 10px;
 }
 
+/* ridimensionamento immagini */
 img {
-    width: 300px;
+    max-width: 100%;
 }
 
+/* blocco contenente immagini all'interno della card */
 .img {
     width: 300px;
     position: relative;
-    display: inline-block;
 }
 
+/* etichette sconto, sostenibilità e like */
 .label {
     position: absolute;
     bottom: 15px;
@@ -52,20 +60,9 @@ img {
     font-size: 15px;
 }
 
+/* style della didascalia */
 .brand, .name {
     display: block;
-}
-
-.imgtop {
-    display: none;
-}
-
-.card:hover .imgbase{
-    display: none;
-}
-
-.card:hover .imgtop{
-    display: initial;
 }
 
 .brand {
@@ -89,4 +86,17 @@ img {
 .price {
     text-decoration: line-through;
     color: rgb(85, 85, 85);
+}
+
+/* hover delle immagini */
+.imgtop {
+    display: none;
+}
+
+.card:hover .imgbase{
+    display: none;
+}
+
+.card:hover .imgtop{
+    display: initial;
 }
