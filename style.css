@@ -1,5 +1,9 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .row {
-    background-color: black;
+    margin: auto 17vw;
 }
 
 .card {
@@ -24,6 +28,7 @@ img {
     bottom: 15px;
     left: 0px;
     padding: 5px;
+    font-size: 9px;
 }
 
 .discount {
@@ -61,5 +66,25 @@ img {
     display: initial;
 }
 
+.brand {
+    font-size: 11px;
+}
 
+.name {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
 
+.price, .saled {
+    font-size: 12px;
+}
+
+.saled {
+    color: red;
+}
+
+.price {
+    text-decoration: line-through;
+    color: rgb(85, 85, 85);
+}
