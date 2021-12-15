@@ -22,22 +22,16 @@ img {
     display: inline-block;
 }
 
-/* .label {
-    color: white;
+.label {
     position: absolute;
     bottom: 15px;
     left: 0px;
-    padding: 5px;
-    font-size: 9px;
-} */
+}
 
-.label {
-    color: white;
-    position: relative;
-    left: 0px;
-    bottom: 40px;
-    padding: 5px;
+.discount, .sust {
+    padding: 4px;
     font-size: 9px;
+    color: white;
 }
 
 .discount {
