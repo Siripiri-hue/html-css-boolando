@@ -22,11 +22,20 @@ img {
     display: inline-block;
 }
 
-.label {
+/* .label {
     color: white;
     position: absolute;
     bottom: 15px;
     left: 0px;
+    padding: 5px;
+    font-size: 9px;
+} */
+
+.label {
+    color: white;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
     padding: 5px;
     font-size: 9px;
 }
@@ -37,7 +46,6 @@ img {
 
 .sust {
     background-color: green;
-    left: 50px;
 }
 
 .heart {
